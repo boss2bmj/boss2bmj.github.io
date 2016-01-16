@@ -15,6 +15,6 @@ In this title, i will talk about my major that i choose to study in university. 
 
 2.) I create my own photo hunt program for the project in Numerical Method, if you are interesting you can go to see by [Click-Here](https://github.com/boss2bmj/boss2bmj-photo-hunt.github.io.git)
 
-3.) i also creat minecraft strike(it is like counter strike, but it is in minecraft), if you are interesting you can go to see by [Click-Here](https://github.com/boss2bmj/boss2bmj-minecraft-strike.github.io.git)
+3.) I also creat minecraft strike(it is like counter strike, but it is in minecraft), if you are interesting you can go to see by [Click-Here](https://github.com/boss2bmj/boss2bmj-minecraft-strike.github.io.git)
 
 > So i hope that you guys will interest to join **computer science** role, and trust me it is very fun and it will be benefit to you!
