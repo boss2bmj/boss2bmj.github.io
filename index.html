@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<link href="vendors/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="vendors/justified-nav.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<div class="home">
+  {% if site.theme.header_text %}
+  <style>
+    #boss_profile{
+      height: 350px;
+    }
+
+  </style>
+  <div class="call-out"
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme.header_text_feature_image }}')">
+    <!-- <img id="boss_profile" src="img/boss.png" alt=""/> -->
+    <img id="boss_profile" src="{{ site.baseurl }}/img/{{ site.theme.avatar }}" alt=""/>
+    {{ site.theme.header_text }}
+
+  </div>
+  {% endif %}
+
+  <div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post-teaser">
+      <header>
+        <h1>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+          </a>
+        </h1>
+        <p class="meta">
+          {{ post.date | date: "%B %-d, %Y" }}
+        </p>
+      </header>
+      <div class="excerpt">
+        {{ post.excerpt }}
+        <a class="button" href="{{ post.url | prepend: site.baseurl }}">
+          {{ site.theme.str_continue_reading }}
+        </a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      <i class="fa fa-chevron-left"></i>
+      {{ site.theme.str_prev }}
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button" >
+      {{ site.theme.str_next }}
+      <i class="fa fa-chevron-right"></i>
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
