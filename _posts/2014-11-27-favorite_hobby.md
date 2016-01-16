@@ -30,13 +30,12 @@ This web site will tell you almost everything about exercise, and the most part 
 
 ####This is an example that how i exercise in one weekend
 
-
 | Days    | Muscle          |
 | ------------- |:-------------:|
-| Monday      | Chest & Abdominal |
-| Tuesday     | Legs     |  
+| Monday      | [Chest](http://www.bodybuilding.com/fun/chest.htm) & [Abdominal](http://www.bodybuilding.com/fun/abs.htm)|
+| Tuesday     | [legs](http://www.bodybuilding.com/fun/quads.htm)     |  
 | Wednesday | Rest      |    
-| Thursday | Shoulder & Abdominal      |  
-| Friday | Back      |    
-| Saturday | Arms(Biceps, Triceps, and forearm)      |  
+| Thursday | [Shoulder](http://www.bodybuilding.com/fun/shoulders.htm)  & [Abdominal](http://www.bodybuilding.com/fun/abs.htm)      |  
+| Friday | Back([Middle Back](http://www.bodybuilding.com/fun/midback.htm)  & [Lower Back](http://www.bodybuilding.com/fun/lowback.htm))      |    
+| Saturday | Arms([Biceps](http://www.bodybuilding.com/fun/biceps.htm), [Triceps](http://www.bodybuilding.com/fun/triceps.htm), and [Forearm](http://www.bodybuilding.com/fun/forearm.htm))      |  
 | Sunday | Rest      |    
